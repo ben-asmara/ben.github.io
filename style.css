@@ -10,16 +10,19 @@
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
 }
-.home{
+.home {
     background-image: url(images/background1.avif);
     background-size: cover;
     padding: 85px 41px;
     border-style: solid;
     border-radius: 20px;
-    border: 2cm;
-    border: rgb(240, 4, 7);
-   // display: flex;
-
+    border: 2px solid rgb(240, 4, 7);
+    width: 100%; /* Adjust width as needed */
+    max-width: 1200px; /* Set a maximum width to control the container size */
+    height: 600px; /* Set a fixed height */
+    overflow: hidden; /* Hide overflowed content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: auto; /* Center the container horizontally */
 }
 
 .container{
