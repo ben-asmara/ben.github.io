@@ -1,5 +1,5 @@
+@@ -1,29 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
 .header{
     margin: 0px;
     padding: 0px;
@@ -18,8 +18,12 @@
     border-radius: 20px;
     border: 2cm;
     border: rgb(240, 4, 7);
+    display: flex;
    // display: flex;
 
+}
+.home .active{
+    display: flex;
 }
 
 .container{
@@ -54,12 +58,9 @@
     border-radius: 10px;
     overflow: hidden;
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
 }
-
 .dropdown_menu.open{
     height: 160px;
-
 }
 .dropdown_menu li{
     padding: 0.7rem;
@@ -85,7 +86,6 @@
         left: 2rem;
         width: unset;
     }
-
 }
 .logo{
     cursor: pointer;
@@ -97,7 +97,6 @@
     font-size: 35px;
 } */
 .typing,.typing2{
-
     color: rgb(240, 4, 7);
     font-weight: 500;
 }
@@ -106,19 +105,16 @@
 }
 .text1{
     font-size: 50px;
-
 }
 .text2{
     font-size: 60px;
     font-weight: 600;
-
 }
 .text3{
     font-size: 70px;
     margin: 5px 0;
 }
 .typing,.typing2{
-
     color: rgb(207, 4, 7);
     font-weight: 500;
 }
@@ -170,7 +166,6 @@ li a{
     font-size: 18px;
     text-transform: uppercase;
     position: relative;
-
 }
 li a::after{
     content: '';
@@ -181,21 +176,17 @@ li a::after{
     left: 0;
     bottom: -6px;
     transition: 0.5s;
-
 }
 li a:hover::after{
     width: 100%;
-
 }
 .texts{
     margin: auto 0 auto 90px;  
     margin-top: 110px;
     font-family: 'Josefin Sans', sans-serif;
-
     
 }
 .header-text{
-
     margin-top: 3;
     margin-left: 0;
     font-size: 30px;
@@ -215,11 +206,8 @@ li a:hover::after{
     color: aliceblue;
     background-color: rgb(207, 4, 7);
     text-decoration: none;
-
-
 }
 /* *{
-
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -229,7 +217,6 @@ background-color: whitesmoke;
 .position{
     position: relative;
     align-items: right;
-
 }
 .image{
     width:400px;
@@ -240,7 +227,6 @@ background-color: whitesmoke;
 table{
 border: 50px;
 align-items: center;
-
 }
 .hire{
     display: inline-block;
@@ -252,10 +238,8 @@ align-items: center;
     border-radius: 6px;
     border: 2px solid rgb(207, 4, 7) ;
     transition: all 0.3s ease;
-
     text-decoration: none;
 }
-
 .hire:hover{
     color: black;
     background: none;
@@ -265,7 +249,6 @@ align-items: center;
     font-size: 50px;
     font-weight: 500;
     padding: 10px 2%;
-
 }
 .title .Subtitle{
     font-size: 20px;
@@ -275,7 +258,6 @@ align-items: center;
     width: 40px;
     height: 40px;
     align-items: right;
-
 }
 /* .containerservice{
     display: flex;
@@ -284,7 +266,6 @@ align-items: center;
     justify-content: space-between;
     margin-left: 110px;
 } */
-
 .Services .containerservice .card {
     width: calc(33% - 20px);
     border: rgb(240, 4, 7);
@@ -301,7 +282,6 @@ align-items: center;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-
     margin-bottom: 60px;
 }
 .title{
@@ -359,7 +339,6 @@ align-items: center;
 }
 .text1{
     font-size: 40px;
-
 }
 .text2{
     font-size: 90px;
@@ -407,7 +386,6 @@ table.yes td {
     padding: 5px;
     border:2px solid #fff;border-collapse:separate;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -419,12 +397,10 @@ video {
 img {
     max-width: 100%;
 }
-
 tr td {
 width: 350px;
 height: 100%;
 }
-
 .textsskills{
 width: 40%;
 font-size: 20px;
@@ -435,7 +411,6 @@ margin-right: 20px;
 }
 .bars{
 margin-bottom: 15px;
-
 }
 .info{
 display: flex;
@@ -455,7 +430,6 @@ position: relative;
 .barskills .line::before{
 content: "";
 position: absolute;
-
 height: 100%;
 left: 0;
 top: 0;
@@ -475,4 +449,4 @@ width: 75%;
 }
 .barskills .python::before{
 width: 60%;
-}"
+}
